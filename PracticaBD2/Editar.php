@@ -7,11 +7,17 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Editar base de datos</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <fieldset>
+            <legend>Editar tabla</legend>
+            <form action="" method="POST">
+                <input type="submit" value="Guardar" name="guardar">
+                <input type="submit" value="Cancelar" name ="cancelar">
+            </form>
+        </fieldset>
     </body>
 </html>
